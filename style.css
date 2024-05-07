@@ -41,6 +41,8 @@
     
 }
 
+
+
 .button_timerHydra {
     height: 40px;
     right: 300px;
@@ -52,6 +54,27 @@
     
 }
 
+.button_timerJotun {
+    height: 40px;
+    right: 425px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    
+}
+
+.button_timerNemere {
+    height: 40px;
+    right: 170px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    
+}
 
 
 .timer_hydra {
@@ -63,6 +86,32 @@
     border-color: blueviolet;
     border-radius: 10px;
     top: 135px;
+    left: 180px;
+    
+}
+
+.timer_jotun {
+    height:40px;
+    width: 70px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    top: 196px;
+    left: 180px;
+    
+}
+
+.timer_nemere {
+    height:40px;
+    width: 70px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    top: 260px;
     left: 180px;
     
 }
