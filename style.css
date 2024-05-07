@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 1px;
+    padding: 10px;
+    background: fixed;
+    background-color: green;
+    font-size: 13px;
+    color: white;
+} 
+
+
+
+.navbar {
+ color: rgb(255, 255, 255);
+ position: fixed;
+ 
+} 
+
+.timer_meley {
+    height: 40px;
+    width: 70px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    left: 180px;
+    top: 70px;
+    
+}
+
+.button_timerMeley {
+    height: 40px;
+    left: 10px;
+    height: auto;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px; 
+    
+}
+
+.button_timerHydra {
+    height: 40px;
+    right: 300px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    
+}
+
+
+
+.timer_hydra {
+    height:40px;
+    width: 70px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    top: 135px;
+    left: 180px;
+    
+}
+
+.navbar__item {
+    height:80px;
+    position: fixed;
+}
+input {
+    position: fixed;
+    background-color: transparent;
+    border: 0px solid;
+    height: 40px;
+    width: 130px;
+    color: #CCC;
+}
+
+.quantity {
+    position: fixed;
+    /* background-color: rgb(16, 0, 105); */
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    outline: white;
+    position: relative;
+    font-weight: 100;
+    border: 3px solid;
+    border-color: blueviolet;
+}
+
+
+
+.meley_chest {
+    height: 5%;
+    position: fixed;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    top: 70px;
+    left: 1px;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border: 3px solid;
+    color: purple;
+    border-radius: 10px;
+    
+}
+
+.hidra_chest {
+    height: 5%;
+    position: fixed;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    top: 130px;
+    left: 1px;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border: 3px solid;
+    color: purple;
+    border-radius: 10px;
+}
+
+.jotun_chest {
+    height: 5%;
+    position: fixed;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    top: 195px;
+    left: 1px;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border: 3px solid;
+    color: purple;
+    border-radius: 10px;
+    
+}
+
+.bag_chest {
+    height: 5%;
+    position: fixed;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    top: 255px;
+    left: 1px;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border: 3px solid;
+    color: purple;
+    border-radius: 10px;
+}
+
+.nemere_chest {
+    height: 5%;
+    position: fixed;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    top: 320px;
+    left: 1px;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border: 3px solid;
+    color: purple;
+    border-radius: 10px;
+}
+
+.redzodiac_chest {
+    height: 5%;
+    position: fixed;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    top: 385px;
+    left: 1px;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border: 3px solid;
+    color: purple;
+    border-radius: 10px;
+}
