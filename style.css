@@ -76,6 +76,54 @@
     
 }
 
+.button_stoptimerNemere {
+    height: 40px;
+    right: 170px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    bottom: 400px;
+    
+}
+
+.button_stoptimerHydra {
+    height: 40px;
+    right: 300px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    bottom: 400px;
+    
+}
+
+.button_stoptimerMeley {
+    height: 40px;
+    right:548px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    bottom: 400px;
+    
+}
+
+.button_stoptimerJotun {
+    height: 40px;
+    right:428px;
+    position: fixed;
+    border: 3px solid;
+    background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
+    border-color: blueviolet;
+    border-radius: 10px;
+    bottom: 400px;
+    
+}
+
 
 .timer_hydra {
     height:40px;
@@ -111,7 +159,7 @@
     background-image: linear-gradient(to right, rgb(48, 4, 90) , rgb(224, 4, 151));
     border-color: blueviolet;
     border-radius: 10px;
-    top: 260px;
+    top: 323px;
     left: 180px;
     
 }

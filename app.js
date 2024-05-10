@@ -4,11 +4,16 @@ const coutdownEl_jotun = document.getElementById('countdown_jotun')
 const coutdownEl_Nemere = document.getElementById('countdown_nemere')
 
 
+var countDownNemere;
+var countDownHydra;
+var countDownJotun;
+var countDownMeley;
+
+
 
 function updateCountdownMeley (){
   const startingMinutes = 1
   let time = startingMinutes * 60
-  var countDown;
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
     time = 180 * 60
@@ -18,9 +23,9 @@ function updateCountdownMeley (){
     // coutdownEl.innerHTML = minutes+":"+seconds
     time < 0 ? 0: time;
     // setInterval(updateCountdown, 1000)
-    countDown = setInterval(function() { // removed var keyword
+    countDownMeley = setInterval(function() { // removed var keyword
             if (time == 0) {
-              clearInterval(countDown);
+              clearInterval(countDownMeley);
               coutdownEl_meley.innerHTML = "Ready";
             } else {
                 const minutes = Math.floor(time / 60);
@@ -39,7 +44,6 @@ function updateCountdownMeley (){
 function updateCountdownHidra (){
   const startingMinutes = 1
   let time= startingMinutes * 60
-  var countDown;
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
     time = 20 * 60
@@ -49,9 +53,9 @@ function updateCountdownHidra (){
     // coutdownEl.innerHTML = minutes+":"+seconds
     time < 0 ? 0: time;
     // setInterval(updateCountdown, 1000)
-    countDown = setInterval(function() { // removed var keyword
+    countDownHydra = setInterval(function() { // removed var keyword
             if (time == 0) {
-              clearInterval(countDown);
+              clearInterval(countDownHydra);
               coutdownEl_hidra.innerHTML = "Ready";
             } else {
                 const minutes = Math.floor(time / 60);
@@ -70,7 +74,6 @@ function updateCountdownHidra (){
 function updateCountdownJotun(){
     const startingMinutes = 1
     let time= startingMinutes * 60
-   var countDown;
     const minutes = Math.floor(time / 60);
     let seconds = time % 60;
     time =  120 * 60
@@ -81,9 +84,9 @@ function updateCountdownJotun(){
     // coutdownEl.innerHTML = minutes+":"+seconds
     time < 0 ? 0: time;
     // setInterval(updateCountdown, 1000)
-    countDown = setInterval(function() { // removed var keyword
+    countDownJotun = setInterval(function() { // removed var keyword
             if (time == 0) {
-              clearInterval(countDown);
+              clearInterval(countDownJotun);
               coutdownEl_jotun.innerHTML = "Ready";
             } else {
                 const minutes = Math.floor(time / 60);
@@ -98,13 +101,17 @@ function updateCountdownJotun(){
 
 }
 
-function updateCountdownNemere(){
+
+
+
+function updateCountdownNemere(data){
   const startingMinutes = 1
   let time= startingMinutes * 60
- var countDown;
   const minutes = Math.floor(time / 60);
   let seconds = time % 60;
-  time =  240 * 60
+  time = 240 * 60
+
+  // time =  1 * 60
 
   
   seconds = seconds < 10 ? '0' + seconds : seconds;
@@ -112,9 +119,9 @@ function updateCountdownNemere(){
   // coutdownEl.innerHTML = minutes+":"+seconds
   time < 0 ? 0: time;
   // setInterval(updateCountdown, 1000)
-  countDown = setInterval(function() { // removed var keyword
+  countDownNemere = setInterval(function() { // removed var keyword
           if (time == 0) {
-            clearInterval(countDown);
+            clearInterval(countDownNemere);
             coutdownEl_Nemere.innerHTML = "Ready";
           } else {
               const minutes = Math.floor(time / 60);
@@ -127,6 +134,29 @@ function updateCountdownNemere(){
           time --;
         }, 1000);
 
+}
+
+
+function stopCounter(type) {
+  if (type == "nemere"){
+    clearInterval(countDownNemere)
+    coutdownEl_Nemere.innerHTML = "Ready";
+  }
+
+  if (type == "hydra"){
+    clearInterval(countDownHydra)
+    coutdownEl_hidra.innerHTML = "Ready";
+  }
+
+  if (type == "meley"){
+    clearInterval(countDownMeley)
+    coutdownEl_meley.innerHTML = "Ready";
+  }
+
+  if (type == "jotun"){
+    clearInterval(countDownJotun)
+    coutdownEl_jotun.innerHTML = "Ready";
+  }
 }
 
 
