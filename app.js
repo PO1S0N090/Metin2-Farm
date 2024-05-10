@@ -9,6 +9,10 @@ var countDownHydra;
 var countDownJotun;
 var countDownMeley;
 
+var sound = new Audio("ronaldo-siuuuu.mp3")
+
+
+
 
 
 function updateCountdownMeley (){
@@ -27,6 +31,7 @@ function updateCountdownMeley (){
             if (time == 0) {
               clearInterval(countDownMeley);
               coutdownEl_meley.innerHTML = "Ready";
+              sound.play()
             } else {
                 const minutes = Math.floor(time / 60);
                 let seconds = time % 60;
@@ -57,6 +62,7 @@ function updateCountdownHidra (){
             if (time == 0) {
               clearInterval(countDownHydra);
               coutdownEl_hidra.innerHTML = "Ready";
+              sound.play()
             } else {
                 const minutes = Math.floor(time / 60);
                 let seconds = time % 60;
@@ -88,6 +94,7 @@ function updateCountdownJotun(){
             if (time == 0) {
               clearInterval(countDownJotun);
               coutdownEl_jotun.innerHTML = "Ready";
+              sound.play()
             } else {
                 const minutes = Math.floor(time / 60);
                 let seconds = time % 60;
@@ -123,6 +130,7 @@ function updateCountdownNemere(data){
           if (time == 0) {
             clearInterval(countDownNemere);
             coutdownEl_Nemere.innerHTML = "Ready";
+            sound.play()
           } else {
               const minutes = Math.floor(time / 60);
               let seconds = time % 60;
